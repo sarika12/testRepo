@@ -1,0 +1,17 @@
+'''it will print line no before every line'''
+
+import sys
+def write_line_no(fname):
+       
+    with open(fname, 'r') as f:
+        data=f.readlines()
+	print data
+       
+
+if __name__=='__main__':
+    write_line_no(sys.argv[1])
+
+
+
+
+

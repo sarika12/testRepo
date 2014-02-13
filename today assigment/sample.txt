@@ -1,0 +1,3 @@
+hi my name is manmohan
+i am working in python
+today is friday
